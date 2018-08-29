@@ -45,7 +45,7 @@ declare module "epub" {
 	class EPub extends EventEmitter {
 		constructor(epubfile: string, imagewebroot?: string, chapterwebroot?: string);
 		
-		metadata: Object;
+		metadata: any;
 		manifest: Object;
 		spine: Object;
 		flow: Array<Object>;
