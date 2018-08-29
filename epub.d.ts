@@ -3,8 +3,6 @@
 // Definitions by: Julien Chaumond <https://github.com/julien-c>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="../node/node.d.ts" />
-
 /**
  *  new EPub(fname[, imageroot][, linkroot])
  *  - fname (String): filename for the ebook
